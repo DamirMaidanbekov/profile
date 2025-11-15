@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.projectsTitle">Проекты — Дамир Майданбеков</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header blur">
+    <a class="brand" href="index.html">
+      <img src="img/avatar/avatar.jpg" alt="Damir avatar" class="brand-avatar" />
+      <span>Damir Maidanbekov</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-i18n="nav.home">Главная</a>
+      <a href="experience.html" data-i18n="nav.experience">Опыт</a>
+      <a href="projects.html" class="active" data-i18n="nav.projects">Проекты</a>
+      <a href="contact.html" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+      <select id="lang-switcher" aria-label="Language switcher">
+        <option value="ru">RU</option>
+        <option value="kk">KK</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero reveal">
+      <h1 data-i18n="projects.title">Проекты</h1>
+      <p class="lead" data-i18n="projects.subtitle">Веб, CMS, AI и внутренние порталы</p>
+    </section>
+
+    <section class="projects-grid">
+      <div class="grid">
+        <article id="careerai" class="proj-card reveal">
+          <img src="img/projects/careerai.png" alt="CareerAI" />
+          <div class="body">
+            <h3 data-i18n="projects.careerai.title">CareerAI</h3>
+            <p data-i18n="projects.careerai.desc">Django · Gemini API · HH API — Карьерный ассистент с админкой для промптов.</p>
+            <div class="tags"><span>AI</span><span>Django</span><span>API</span></div>
+            <a class="btn ghost" href="https://careerai.shakarim.kz" target="_blank" rel="noopener">careerai.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="aicheck" class="proj-card reveal">
+          <img src="img/projects/aicheck.png" alt="AICheck" />
+          <div class="body">
+            <h3 data-i18n="projects.aicheck.title">AICheck</h3>
+            <p data-i18n="projects.aicheck.desc">Django · Gemini API — проверка текстов и контента.</p>
+            <div class="tags"><span>AI</span><span>Django</span></div>
+            <a class="btn ghost" href="https://aicheck.shakarim.kz" target="_blank" rel="noopener">aicheck.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="agrohub" class="proj-card reveal">
+          <img src="img/projects/agrohub.png" alt="AgroHub" />
+          <div class="body">
+            <h3 data-i18n="projects.agrohub.title">AgroHub</h3>
+            <p data-i18n="projects.agrohub.desc">Django — каталог, корзина, новости, админ‑панель, аутентификация.</p>
+            <div class="tags"><span>Django</span><span>CMS</span></div>
+            <a class="btn ghost" href="https://agrohub.shakarim.kz" target="_blank" rel="noopener">agrohub.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="shakarim-new" class="proj-card reveal">
+          <img src="img/projects/shakarim.png" alt="Shakarim.edu.kz" />
+          <div class="body">
+            <h3 data-i18n="projects.shakarim.title">Shakarim.edu.kz</h3>
+            <p data-i18n="projects.shakarim.desc">Laravel — новости, объявления, роли, уникальные страницы («Устойчивое развитие», «Журналы»).</p>
+            <div class="tags"><span>Laravel</span><span>MySQL</span></div>
+            <a class="btn ghost" href="https://shakarim.edu.kz" target="_blank" rel="noopener">shakarim.edu.kz</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <img src="img/projects/old.shakarim.png" alt="Old Shakarim" />
+          <div class="body">
+            <h3 data-i18n="projects.old.title">Старый сайт университета</h3>
+            <p data-i18n="projects.old.desc">Yii2 — модернизация новостей/объявлений, админ‑панель, разделы закупок.</p>
+            <div class="tags"><span>Yii2</span><span>PHP</span></div>
+            <a class="btn ghost" href="https://old.shakarim.edu.kz" target="_blank" rel="noopener">old.shakarim.edu.kz</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <img src="img/projects/solveathon.png" alt="Solveathon" />
+          <div class="body">
+            <h3 data-i18n="projects.solveathon.title">Solveathon</h3>
+            <p data-i18n="projects.solveathon.desc">Django CMS — сайт регистрации, стабильная работа под нагрузкой.</p>
+            <div class="tags"><span>Django CMS</span></div>
+            <a class="btn ghost" href="https://solveathon.shakarim.kz" target="_blank" rel="noopener">solveathon.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <img src="img/projects/vestnik.png" alt="Journals" />
+          <div class="body">
+            <h3 data-i18n="projects.vestnik.title">Научные журналы</h3>
+            <p data-i18n="projects.vestnik.desc">OJS — платформа журналов, настройка и сопровождение.</p>
+            <div class="tags"><span>OJS</span><span>CMS</span></div>
+            <a class="btn ghost" href="https://shakarim.edu.kz/ru/science/journals" target="_blank" rel="noopener">Журналы</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <img src="img/projects/aisana.png" alt="AI-SANA" />
+          <div class="body">
+            <h3 data-i18n="projects.aisana.title">AI‑SANA сайт</h3>
+            <p data-i18n="projects.aisana.desc">PHP · HTML — презентационный сайт программы.</p>
+            <div class="tags"><span>PHP</span><span>HTML</span></div>
+            <a class="btn ghost" href="https://aisana.shakarim.kz" target="_blank" rel="noopener">aisana.shakarim.kz</a>
+          </div>
+        </article>
+
+        <!-- Additional projects (text-only placeholders) -->
+        <article id="adminpanel" class="proj-card noimg reveal">
+          <div class="noimg"><span>Admin Panel</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.adminpanel.title">Административная панель университета</h3>
+            <p data-i18n="projects.adminpanel.desc">Laravel, Vue.js — учёт посещаемости, аналитика, графики.</p>
+            <div class="tags"><span>Laravel</span><span>Vue</span></div>
+            <a class="btn ghost" href="https://adminpanel.shakarim.kz" target="_blank" rel="noopener">adminpanel.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="newhub" class="proj-card noimg reveal">
+          <div class="noimg"><span>New Hub</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.newhub.title">Новый центр университета (в разработке)</h3>
+            <p data-i18n="projects.newhub.desc">Vue.js, Django — модули документооборота и посещаемости.</p>
+            <div class="tags"><span>Vue</span><span>Django</span></div>
+            <a class="btn ghost" href="https://newhub.shakarim.kz" target="_blank" rel="noopener">newhub.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="hub" class="proj-card noimg reveal">
+          <div class="noimg"><span>Hub</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.hub.title">Центр университета</h3>
+            <p data-i18n="projects.hub.desc">Чистый PHP — электронный документооборот и посещаемость.</p>
+            <div class="tags"><span>PHP</span></div>
+            <a class="btn ghost" href="https://hub.shakarim.kz/login.php" target="_blank" rel="noopener">hub.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="mooc" class="proj-card noimg reveal">
+          <div class="noimg"><span>MOOC</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.mooc.title">MOOC Университета</h3>
+            <p data-i18n="projects.mooc.desc">Moodle — поддержка, кастомизация, плагины.</p>
+            <div class="tags"><span>Moodle</span><span>CMS</span></div>
+            <a class="btn ghost" href="https://mooc.shakarim.kz" target="_blank" rel="noopener">mooc.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="platonus" class="proj-card noimg reveal">
+          <div class="noimg"><span>Platonus</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.platonus.title">Учебный центр Platonus</h3>
+            <p data-i18n="projects.platonus.desc">Platonus — техподдержка и бесперебойная работа.</p>
+            <div class="tags"><span>Platonus</span></div>
+            <a class="btn ghost" href="https://platonus.shakarim.kz" target="_blank" rel="noopener">platonus.shakarim.kz</a>
+          </div>
+        </article>
+
+        <article id="aibarrier" class="proj-card noimg reveal">
+          <div class="noimg"><span>AI Barrier</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.aibarrier.title">AI‑шлагбаум</h3>
+            <p data-i18n="projects.aibarrier.desc">Распознавание номеров и автоматическое открытие шлагбаума.</p>
+            <div class="tags"><span>AI</span><span>CV</span></div>
+          </div>
+        </article>
+
+        <article id="faceid" class="proj-card noimg reveal">
+          <div class="noimg"><span>Face ID</span></div>
+          <div class="body">
+            <h3 data-i18n="projects.faceid.title">Face ID интеграции</h3>
+            <p data-i18n="projects.faceid.desc">API SEMGU и PERCO — система распознавания лиц.</p>
+            <div class="tags"><span>API</span><span>Integration</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="links">
+      <a href="https://github.com/DamirMaidanbekov" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:damir.maidanbek@gmail.com">Email</a>
+      <a href="tel:+77064084690">Phone</a>
+    </div>
+    <div class="copy">© <span id="year"></span> Damir Maidanbekov</div>
+  </footer>
+</body>
+</html>

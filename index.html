@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">Дамир Майданбеков — Инженер‑программист</title>
+  <meta name="description" content="Портфолио и проекты Дамира Майданбекова: Backend/Full‑stack (Java, Python, PHP), AI, CMS, интеграции. Алматы, Казахстан." />
+  <meta property="og:title" content="Damir Maidanbekov — Software Engineer" />
+  <meta property="og:description" content="Backend/Full‑stack (Java, Python, PHP), AI, CMS, интеграции. Алматы, Казахстан." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/avatar/avatar.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2300a3ff'/%3E%3Ctext x='32' y='40' font-size='28' text-anchor='middle' fill='white' font-family='Segoe UI, system-ui, -apple-system, Roboto, Arial'%3ED%3C/text%3E%3C/svg%3E" />
+  <link rel="preload" as="image" href="img/avatar/avatar.jpg">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header blur">
+    <a class="brand" href="index.html">
+      <img src="img/avatar/avatar.jpg" alt="Damir avatar" class="brand-avatar" />
+      <span>Damir Maidanbekov</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-i18n="nav.home" class="active">Главная</a>
+      <a href="experience.html" data-i18n="nav.experience">Опыт</a>
+      <a href="projects.html" data-i18n="nav.projects">Проекты</a>
+      <a href="contact.html" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+      <select id="lang-switcher" aria-label="Language switcher">
+        <option value="ru">RU</option>
+        <option value="kk">KK</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-text">
+        <div class="pill" data-i18n="hero.pill">Доступен для работы и проектов</div>
+        <h1 data-i18n="hero.title">Инженер‑программист. Backend / Full‑stack.</h1>
+        <p class="lead" data-i18n="hero.subtitle">Java, Python, PHP · AI · CMS · Интеграции · Алматы</p>
+        <div class="cta">
+          <a class="btn primary" href="projects.html" data-i18n="hero.ctaPrimary">Смотреть проекты</a>
+          <a class="btn" href="contact.html" data-i18n="hero.ctaSecondary">Связаться</a>
+        </div>
+        <div class="quick-info">
+          <div><span class="label" data-i18n="info.location.label">Город:</span><span data-i18n="info.location.value">Алматы</span></div>
+          <div><span class="label" data-i18n="info.exp.label">Опыт:</span><span data-i18n="info.exp.value">3+ лет</span></div>
+          <div><span class="label" data-i18n="info.roles.label">Роли:</span><span data-i18n="info.roles.value">Backend, Full‑stack, Аналитик</span></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="avatar-ring">
+          <img src="img/avatar/avatar.jpg" alt="Damir Maidanbekov" class="avatar-large" />
+        </div>
+        <ul class="skills-cloud">
+          <li>Java</li><li>Spring</li><li>Python</li><li>Django</li><li>FastAPI</li>
+          <li>PHP</li><li>Laravel</li><li>Yii2</li><li>Vue</li><li>PostgreSQL</li>
+          <li>MySQL</li><li>NoSQL</li><li>Kafka</li><li>Elasticsearch</li><li>Docker</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="highlights reveal">
+      <article class="card">
+        <h3 data-i18n="highlights.university.title">Университет Шакарима</h3>
+        <p data-i18n="highlights.university.desc">Отвечал за основной сайт (Laravel), поддерживал OJS‑журналы, интеграции.</p>
+      </article>
+      <article class="card">
+        <h3>AI‑SANA</h3>
+        <p data-i18n="highlights.ai.desc">Проекты CareerAI, AICheck, Admission Bot, AI‑шлагбаум.</p>
+      </article>
+      <article class="card">
+        <h3>Magnum E‑commerce</h3>
+        <p data-i18n="highlights.magnum.desc">Backend на Python/Java, REST API, PostgreSQL, CI/CD.</p>
+      </article>
+      <article class="card">
+        <h3>BURAZAZU</h3>
+        <p data-i18n="highlights.burazazu.desc">Spring, NoSQL, Elasticsearch, BI‑отчёты в Power BI.</p>
+      </article>
+    </section>
+
+    <section class="featured reveal">
+      <h2 data-i18n="featured.title">Избранные проекты</h2>
+      <div class="grid">
+        <a class="proj" href="projects.html#careerai">
+          <img src="img/projects/careerai.png" alt="CareerAI" />
+          <div class="proj-meta"><span>CareerAI</span><small>Django · Gemini API · HH</small></div>
+        </a>
+        <a class="proj" href="projects.html#aicheck">
+          <img src="img/projects/aicheck.png" alt="AICheck" />
+          <div class="proj-meta"><span>AICheck</span><small>Django · Gemini API</small></div>
+        </a>
+        <a class="proj" href="projects.html#agrohub">
+          <img src="img/projects/agrohub.png" alt="AgroHub" />
+          <div class="proj-meta"><span>AgroHub</span><small>Django</small></div>
+        </a>
+        <a class="proj" href="projects.html#shakarim-new">
+          <img src="img/projects/shakarim.png" alt="Shakarim.edu.kz" />
+          <div class="proj-meta"><span>Shakarim.edu.kz</span><small>Laravel</small></div>
+        </a>
+      </div>
+      <div class="cta center">
+        <a class="btn" href="projects.html" data-i18n="featured.viewAll">Смотреть все проекты</a>
+      </div>
+    </section>
+
+    <section class="certs reveal">
+      <h2 data-i18n="certs.title">Сертификаты</h2>
+      <div class="certs-row">
+        <img src="img/certificates/dar.jpg" alt="DAR University Java Back-end" />
+        <img src="img/certificates/coursera1.jpg" alt="Coursera" />
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="links">
+      <a href="https://github.com/DamirMaidanbekov" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:damir.maidanbek@gmail.com">Email</a>
+      <a href="tel:+77064084690">Phone</a>
+    </div>
+    <div class="copy">© <span id="year"></span> Damir Maidanbekov</div>
+  </footer>
+</body>
+</html>

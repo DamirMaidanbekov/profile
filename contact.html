@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.contactTitle">Контакты — Дамир Майданбеков</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header blur">
+    <a class="brand" href="index.html">
+      <img src="img/avatar/avatar.jpg" alt="Damir avatar" class="brand-avatar" />
+      <span>Damir Maidanbekov</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" data-i18n="nav.home">Главная</a>
+      <a href="experience.html" data-i18n="nav.experience">Опыт</a>
+      <a href="projects.html" data-i18n="nav.projects">Проекты</a>
+      <a href="contact.html" class="active" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+      <select id="lang-switcher" aria-label="Language switcher">
+        <option value="ru">RU</option>
+        <option value="kk">KK</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero reveal">
+      <h1 data-i18n="contact.title">Давайте работать вместе</h1>
+      <p class="lead" data-i18n="contact.subtitle">Алматы · Готов к переезду и командировкам · Удалённо/офис</p>
+    </section>
+
+    <section class="contact-cards reveal">
+      <article class="card big">
+        <h3>Email</h3>
+        <p><a class="btn" href="mailto:damir.maidanbek@gmail.com">damir.maidanbek@gmail.com</a></p>
+      </article>
+      <article class="card big">
+        <h3 data-i18n="contact.phone">Телефон</h3>
+        <p><a class="btn" href="tel:+77064084690">+7 706 408 4690</a></p>
+      </article>
+      <article class="card big">
+        <h3>GitHub</h3>
+        <p><a class="btn" href="https://github.com/DamirMaidanbekov" target="_blank" rel="noopener">github.com/DamirMaidanbekov</a></p>
+      </article>
+    </section>
+
+    <section class="about reveal">
+      <h2 data-i18n="about.title">Обо мне</h2>
+      <p data-i18n="about.text">Я — Дамир Майданбеков, инженер‑программист, увлечённый масштабируемыми решениями, AI и автоматизацией бизнес‑процессов. Разрабатываю веб‑приложения, чат‑боты и внутренние системы на Java, Python, PHP. Готов усилить команду и запустить новые продукты.</p>
+      <div class="chips">
+        <span>Java</span><span>Spring</span><span>Python</span><span>Django</span><span>FastAPI</span>
+        <span>PHP</span><span>Laravel</span><span>Yii2</span><span>Vue</span><span>PostgreSQL</span>
+        <span>Kafka</span><span>Elasticsearch</span><span>Docker</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="links">
+      <a href="https://github.com/DamirMaidanbekov" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:damir.maidanbek@gmail.com">Email</a>
+      <a href="tel:+77064084690">Phone</a>
+    </div>
+    <div class="copy">© <span id="year"></span> Damir Maidanbekov</div>
+  </footer>
+</body>
+</html>
